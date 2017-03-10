@@ -3,9 +3,9 @@
  */
 public class Starter {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        int[] array = new int[]{-7, 55, -1, 2, 8, 1, 7, 3, -2, 9, 99};
+        int[] array = new int[]{99, 55, -1, 2, 8, 1, 7, 3, -2, 9};
         SecondAfterMax elements = new SecondAfterMax();
         int x = elements.findElement(array);
         System.out.println(x);

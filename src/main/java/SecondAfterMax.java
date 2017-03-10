@@ -14,7 +14,7 @@ public class SecondAfterMax {
             if (max < x[i]) {
                 secondAfterMax = max;
                 max = x[i];
-            } else if(max > x[i]){
+            } else if (secondAfterMax < x[i] || secondAfterMax == max) {
                 secondAfterMax = x[i];
             }
         }
